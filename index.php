@@ -1,10 +1,22 @@
 <!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
+	<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ayato Portfolio</title>
+	<title>Ayato Portfolio</title>
+	<meta content="亜矢斗のポートフォリオです。個人制作物やスキルなど色々おいています。" name="description">
+	<meta name="keywords" content="Ayato,AyatoVR,Portfolio,ポートフォリオ,あやと,亜矢斗">
+	<!-- OGPタグ -->
+	<meta property="og:title" content="Ayato Portfolio" />
+	<meta property="og:description" content="亜矢斗のポートフォリオです。" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://ayatovr.jp/portfolio/" />
+	<meta property="og:image" content="https://ayatovr.jp/wp-content/uploads/2022/08/20200521.jpg" />
+	<meta property="og:site_name" content="Ayato Portfolio" />
+	<meta property="og:locale" content="ja_JP"  />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@VR_Ayato">
     <!-- CSS読み込み -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	 <link rel="stylesheet" href="css/style.css?<?php echo date('Ymd-Hi'); ?>" type="text/css">
@@ -154,7 +166,8 @@
 						<a href="product/demo/VT/index.html">デモアプリA</a>
 					</div>
 				</div>
-				※企業向けシステムは許諾済みの物のみ掲載しております。
+				※企業案件は許諾済みの物のみ掲載しております。
+				<p><a href="product/index.php">全てのProductはこちらのリンクから</a></p>
 			</div>
 		</div>
 	</section>
